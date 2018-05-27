@@ -42,7 +42,7 @@ while len(task_list) > 0:
         else:
             first_task.estimatedTime -= length_time.total_seconds()/60
             slots[0] = slots[1]
-            break
+
 
 #print(free_times)           
 updated_time = []
